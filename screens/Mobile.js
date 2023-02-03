@@ -66,7 +66,7 @@ const Mobile = ({navigation }) => {
                 </Text>
             </TouchableOpacity>
 
-            <TextInput placeholder="confirm code" placeholderTextColor="#808080" onChangeText={setCode}
+            <TextInput placeholder="confirm code" placeholderTextColor="#white" onChangeText={setCode}
                 keyboardType="number-pad"
                 style={styles.input}
             />
