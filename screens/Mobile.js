@@ -55,7 +55,7 @@ const Mobile = ({navigation }) => {
         <View style={styles.container}>
             <FirebaseRecaptchaVerifierModal ref={recaptchaVerifier} firebaseConfig={firebaseConfig}/>
             <Text style={styles.otpText}>Login using OTP</Text>
-            <TextInput placeholder="phone number with country code"placeholderTextColor="#808080" onChangeText={setPhoneNumber}
+            <TextInput placeholder="phone number with country code"placeholderTextColor="#white" onChangeText={setPhoneNumber}
                 keyboardType="phone-pad"
                 autoCompleteType="tel"
                 style={styles.input}
